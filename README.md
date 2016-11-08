@@ -1,2 +1,1 @@
-# test
 Initial repository
