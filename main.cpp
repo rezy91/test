@@ -39,6 +39,8 @@ int main(int argc, char** argv) {
     
     cout << "value is: " << val  << "  "  << objectF.getVariable() << endl;
     
+    cout << "end of program" << endl;
+    
     return 0;
 }
 
