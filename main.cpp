@@ -35,10 +35,7 @@ int main(int argc, char** argv) {
     int val = ptrObj->getVariable();
     objectF.setVariable(2);
     
-    
-    
     cout << "value is: " << val  << "  "  << objectF.getVariable() << endl;
-    
     cout << "end of program" << endl;
     
     return 0;
