@@ -14,10 +14,9 @@ public:
     O_Parent();
     O_Parent(int initVal);
     virtual ~O_Parent();
-    setVariable(int value);
-    int getVariable();
+    virtual int getVariable();
 private:
-    int varOne; 
+    int dwVariable; 
 protected:
 };
 

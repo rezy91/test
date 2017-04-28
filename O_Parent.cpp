@@ -15,24 +15,20 @@
 
 O_Parent::O_Parent() 
 {
-    varOne = 0;
+    dwVariable = 0;
 }
 
 O_Parent::O_Parent(int initVal)
 {
-    varOne = initVal;
+    dwVariable = initVal;
 }
 
 O_Parent::~O_Parent() 
 {
 }
 
-O_Parent::setVariable(int value)
-{
-    varOne = value;
-}
 int O_Parent::getVariable()
 {
-    return varOne;
+    return dwVariable;
 }
 

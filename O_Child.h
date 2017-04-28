@@ -14,10 +14,9 @@ public:
     O_Child();
     O_Child(int initVal);
     virtual ~O_Child();
-    int getVariable();
-    setVariable(int newVal);
+    virtual int getVariable();
 private:
-    int valCh;
+    int dwVariable;
 protected:
 };
 

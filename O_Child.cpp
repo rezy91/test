@@ -13,24 +13,22 @@
 #include "O_Parent.h"
 #include "O_Child.h"
 
-O_Child::O_Child() {
+O_Child::O_Child() 
+{
+    dwVariable = 0;
 }
 
 O_Child::O_Child(int initVal)
 {
-    valCh = initVal;
+    dwVariable = initVal;
 }
 
-O_Child::~O_Child() {
-}
-
-O_Child::setVariable(int newVal)
+O_Child::~O_Child() 
 {
-    valCh = newVal;
 }
 
 int O_Child::getVariable()
 {
-    return valCh;
+    return dwVariable;
 }
 
